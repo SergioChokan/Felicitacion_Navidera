@@ -1,0 +1,214 @@
+.papa {
+    width: 400px;
+    position: absolute;
+    left: -500px;
+    bottom: 10%;
+    animation-name: papaf;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes papaf {
+    0% {
+        left: -500px;
+        bottom: 10%;
+    }
+
+    15% {
+        bottom: 15%;
+    }
+
+
+    30% {
+        bottom: 30%;
+    }
+
+    50% {
+        bottom: 70%;
+        left: 570px;
+    }
+
+    70% {
+        left: 570px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 2500px;
+        bottom: 50%;
+        opacity: 0;
+    }
+}
+
+
+.arbol {
+    width: 350px;
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+}
+
+.regalo {
+    width: 100px;
+    position: absolute;
+    left: -300px;
+    animation-name: regalof;
+    animation-duration: 17s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: -2;
+    opacity: 0;
+
+}
+
+
+@keyframes regalof {
+    0% {
+        left: -500px;
+        bottom: 10%;
+        z-index: -2;
+    }
+
+    15% {
+        bottom: 15%;
+        z-index: -2;
+    }
+
+
+    30% {
+        bottom: 25%;
+        z-index: -2;
+    }
+
+    50% {
+        bottom: 70%;
+        left: 530px;
+        z-index: 1;
+        opacity: 0;
+
+    }
+
+    90% {
+        left: 600px;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    100% {
+        left: 650px;
+        bottom: 0px;
+        z-index: 1;
+        opacity: 1;
+    }
+}
+
+
+.rocket {
+    width: 50px;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    animation-name: rocketf;
+    animation-delay: 10s;
+    animation-duration: 5s;
+    opacity: 1;
+}
+
+
+@keyframes rocketf {
+    0% {
+        bottom: -10%;
+        left: 50%;
+    }
+
+    100% {
+        bottom: 70%;
+        left: 50%;
+        opacity: 0;
+    }
+
+}
+
+.bum {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+    animation-name: bumf;
+    animation-delay: 10s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes bumf {
+    0% {
+        left: 50%;
+        bottom: 70%;
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 45%;
+        bottom: 45%;
+        opacity: 1;
+    }
+}
+
+
+.feliz {
+    font-size: 50px;
+    /*font-family: 'Tangerine', cursive;*/
+    font-family: "Sofia", sans-serif;
+    font-weight: 900;
+    color: red;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+    animation-name: felizf;
+    animation-delay: 7s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes felizf {
+    0% {
+        left: 600px;
+        bottom: 70%;
+        opacity: 0;
+    }
+
+    96% {
+        opacity: 1;
+    }
+
+    97% {
+        font-size: 60px;
+    }
+
+    98% {
+        font-size: 50px;
+    }
+
+    99% {
+        font-size: 60px;
+    }
+
+    100% {
+        font-size: 50px;
+        left: 300px;
+        bottom: 40%;
+        opacity: 1;
+    }
+}
